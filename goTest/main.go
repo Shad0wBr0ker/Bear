@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	name := "ZomBoy"
-	fmt.Println("Hello my name is", name)
+	var name string
+	fmt.Print("What is your name? ")
+	fmt.Scan(&name)
+	fmt.Println("Welcome to the Batcave", name)
 }
